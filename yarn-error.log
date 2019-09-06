@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\AnhVan\AppData\Local\Android\Sdk\platform-tools;C:\Users\AnhVan\AppData\Local\Android\Sdk\tools;C:\Users\AnhVan\AppData\Local\Android\Sdk\tools\bin;C:\Users\AnhVan\AppData\Local\Microsoft\WindowsApps;C:\Users\AnhVan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AnhVan\AppData\Roaming\npm;C:\Users\AnhVan\AppData\Roaming\Composer\vendor\bin;E:\OSPanel\modules\php\PHP_7.2;C:\Program Files\heroku\bin;C:\Users\AnhVan\AppData\Local\Yarn\bin;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\LapTrinh\JS\nativescript_003\package.json: Unexpected token 
+   in JSON at position 110
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "doan_003",
+    "version": "1.0.0",
+    "description": "Do An Tiem An",
+    "author": "Nguyen Anh Van\",
+    "license": "MIT",
+    "nativescript": {
+      "id": "com.anhvan.tieman",
+      "templateVersion": "v2",
+      "tns-android": {
+        "version": "6.0.0"
+      },
+      "tns-ios": {
+        "version": "6.0.1"
+      }
+    },
+    "dependencies": { 
+      "vuex": "^3.1.1",
+      "nativescript-vue": "^2.4.0",
+      "tns-core-modules": "^6.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.0.0",
+      "@babel/preset-env": "^7.0.0",
+      "babel-loader": "^8.0.2",
+      "nativescript-dev-webpack": "^1.0.0",
+      "nativescript-vue-template-compiler": "^2.0.0",
+      "nativescript-worker-loader": "~0.9.0",
+      "node-sass": "^4.9.2",
+      "vue-loader": "^15.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
