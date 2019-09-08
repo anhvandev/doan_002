@@ -2,10 +2,11 @@
     <Page :actionBarHidden="actBar">
         <FlexboxLayout class="wrapper" flexDirection="column">
             <Image src="~/assets/images/logo.png" class="logo"/>
-            <TextField class="input-prima" hint="Tên đăng nhập" v-model="username"/>
-            <TextField class="input-prima" hint="Mật khẩu" v-model="password" secure/>
-            <BtnDefaultTran text="Đăng Nhập" @tap="login"/>
-            <BtnPrimaTran text="Đăng Ký" @tap="register"/>
+            <TextField class="input-prima" hint="Nhập tên đăng nhập" v-model="username"/>
+            <TextField class="input-prima" hint="Nhập mật khẩu" v-model="password" secure/>
+            <TextField class="input-prima" hint="Nhập lại mật khẩu" v-model="repassword" secure/>
+            <BtnDefaultTran text="Đăng Ký" @tap="register"/>
+            <BtnPrimaTran text="Đăng Nhập" @tap="$navigateBack"/>
 
         </FlexboxLayout>
     </Page>
@@ -14,16 +15,16 @@
 <script>
     import * as Toast from 'nativescript-toast';
     import BtnDefaultTran from '../Child/BtnDefaultTran';
-    import BtnPrimaTran from '../Child/BtnPrimaTran';
-    import Register from './Register';
-
+    import BtnPrimaTran from "../Child/BtnPrimaTran";
+    import Login from './Login';
 
     export default {
-        name: 'Login',
+        name: "Register",
         data() {
             return {
                 username: '',
-                password: ''
+                password: '',
+                repassword: ''
             }
         },
         props: {
@@ -34,22 +35,10 @@
         components: {
             BtnDefaultTran,
             BtnPrimaTran,
-            Register
+            Login
         },
         methods: {
-            login() {
-                /*var toast = Toast.makeText("Hello World");
-                toast.show();*/
-                /*if (this.username === '') {
-                    alert('Bạn chưa nhập tên đăng nhập');
-                }
-                if (this.password === '') {
-                    alert('Bạn chưa nhập mật khẩu');
-                }*/
-
-            },
             register() {
-                this.$navigateTo(Register);
             }
         }
     }
