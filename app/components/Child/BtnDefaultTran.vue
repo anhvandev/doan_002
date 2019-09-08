@@ -1,0 +1,34 @@
+<template>
+    <Button :text="text" v-on="$listeners" class="btn" :isEnabled="dis"></Button>
+</template>
+
+<script>
+    export default {
+        name: "BtnDefaultTran",
+        props: {
+            text: {
+                type: String
+            },
+            dis: {
+                type: Boolean,
+                default: true
+            }
+        }
+    }
+</script>
+
+<style scoped>
+    .btn {
+        border-width: 2;
+        border-color: #BC9CFF;
+        border-radius: 25%;
+        background-color: transparent;
+        color: #ffffff;
+        font-family: "Montserrat-SemiBold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10;
+        margin-bottom: 10;
+    }
+</style>

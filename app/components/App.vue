@@ -1,7 +1,5 @@
 <template>
-    <Page actionBarHidden="true">
-        <login/>
-    </Page>
+    <login actBar="true"/>
 </template>
 
 <script>
@@ -10,15 +8,16 @@
     export default {
         data() {
             return {
-                msg: 'Hello World!',
+                actBar: true,
             }
         },
         components: {
             login: Login
+        },
+        methods: {
+            changeActionbar(stt) {
+                this.actBar = stt;
+            }
         }
     }
 </script>
-
-<style scoped>
-
-</style>
