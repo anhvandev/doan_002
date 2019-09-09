@@ -24,7 +24,7 @@
         border-radius: 25%;
         background-color: transparent;
         color: #ffffff;
-        font-family: "Montserrat-SemiBold";
+        font-family: "Montserrat-Bold";
         font-style: normal;
         font-weight: bold;
         font-size: 18px;

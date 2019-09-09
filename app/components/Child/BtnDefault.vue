@@ -24,7 +24,7 @@
         width: auto;
         color: #ffffff;
         margin: 0 auto;
-        font-family: "Montserrat-SemiBold";
+        font-family: "Montserrat-Bold";
         font-style: normal;
         font-weight: bold;
         font-size: 18px;

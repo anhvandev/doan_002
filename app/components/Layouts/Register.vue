@@ -5,9 +5,8 @@
             <TextField class="input-prima" hint="Nhập tên đăng nhập" v-model="username"/>
             <TextField class="input-prima" hint="Nhập mật khẩu" v-model="password" secure/>
             <TextField class="input-prima" hint="Nhập lại mật khẩu" v-model="repassword" secure/>
-            <BtnDefaultTran text="Đăng Ký" @tap="register"/>
+            <BtnDefault text="Đăng Ký" @tap="register"/>
             <BtnPrimaTran text="Đăng Nhập" @tap="$navigateBack"/>
-
         </FlexboxLayout>
     </Page>
 </template>
@@ -16,6 +15,7 @@
     import * as Toast from 'nativescript-toast';
     import BtnDefaultTran from '../Child/BtnDefaultTran';
     import BtnPrimaTran from "../Child/BtnPrimaTran";
+    import BtnDefault from "../Child/BtnDefault";
     import Login from './Login';
 
     export default {
@@ -35,6 +35,7 @@
         components: {
             BtnDefaultTran,
             BtnPrimaTran,
+            BtnDefault,
             Login
         },
         methods: {

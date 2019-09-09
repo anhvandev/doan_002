@@ -4,9 +4,9 @@
             <Image src="~/assets/images/logo.png" class="logo"/>
             <TextField class="input-prima" hint="Tên đăng nhập" v-model="username"/>
             <TextField class="input-prima" hint="Mật khẩu" v-model="password" secure/>
-            <BtnDefaultTran text="Đăng Nhập" @tap="login"/>
+            <BtnDefault text="Đăng Nhập" @tap="login"/>
             <BtnPrimaTran text="Đăng Ký" @tap="register"/>
-
+            <AwesomeLoaders width="60" height="60" indicator="Pacman" indicatorColor="#FFEB3B" />
         </FlexboxLayout>
     </Page>
 </template>
@@ -15,8 +15,8 @@
     import * as Toast from 'nativescript-toast';
     import BtnDefaultTran from '../Child/BtnDefaultTran';
     import BtnPrimaTran from '../Child/BtnPrimaTran';
+    import BtnDefault from '../Child/BtnDefault';
     import Register from './Register';
-
 
     export default {
         name: 'Login',
@@ -34,7 +34,8 @@
         components: {
             BtnDefaultTran,
             BtnPrimaTran,
-            Register
+            Register,
+            BtnDefault
         },
         methods: {
             login() {
