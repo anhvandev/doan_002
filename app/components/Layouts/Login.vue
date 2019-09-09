@@ -6,7 +6,6 @@
             <TextField class="input-prima" hint="Mật khẩu" v-model="password" secure/>
             <BtnDefault text="Đăng Nhập" @tap="login"/>
             <BtnPrimaTran text="Đăng Ký" @tap="register"/>
-            <AwesomeLoaders width="60" height="60" indicator="Pacman" indicatorColor="#FFEB3B" />
         </FlexboxLayout>
     </Page>
 </template>

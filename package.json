@@ -23,7 +23,6 @@
     "dev": "vue-devtools"
   },
   "dependencies": {
-    "nativescript-awesome-loaders": "^1.2.1",
     "nativescript-carousel": "^6.1.0",
     "nativescript-gradient": "^2.0.1",
     "nativescript-toast": "^2.0.0",
