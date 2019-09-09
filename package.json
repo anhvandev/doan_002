@@ -25,6 +25,7 @@
   "dependencies": {
     "nativescript-carousel": "^6.1.0",
     "nativescript-gradient": "^2.0.1",
+    "nativescript-material-activityindicator": "^2.3.23",
     "nativescript-toast": "^2.0.0",
     "nativescript-vue": "^2.4.0",
     "tns-core-modules": "^6.0.0",

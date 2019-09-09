@@ -2,9 +2,9 @@
     <Page :actionBarHidden="actBar">
         <FlexboxLayout class="wrapper" flexDirection="column">
             <Image src="~/assets/images/logo.png" class="logo"/>
-            <TextField class="input-prima" hint="Nhập tên đăng nhập" v-model="username"/>
-            <TextField class="input-prima" hint="Nhập mật khẩu" v-model="password" secure/>
-            <TextField class="input-prima" hint="Nhập lại mật khẩu" v-model="repassword" secure/>
+            <TextDefault password="false" v-model="username" placeholder="Tên đăng nhập" />
+            <TextDefault password="true" v-model="password" placeholder="Nhập mật khẩu" />
+            <TextDefault password="true" v-model="repassword" placeholder="Nhập lại mật khẩu" />
             <BtnDefault text="Đăng Ký" @tap="register"/>
             <BtnPrimaTran text="Đăng Nhập" @tap="$navigateBack"/>
         </FlexboxLayout>
@@ -14,9 +14,10 @@
 <script>
     import * as Toast from 'nativescript-toast';
     import BtnDefaultTran from '../Child/BtnDefaultTran';
-    import BtnPrimaTran from "../Child/BtnPrimaTran";
-    import BtnDefault from "../Child/BtnDefault";
+    import BtnPrimaTran from '../Child/BtnPrimaTran';
+    import BtnDefault from '../Child/BtnDefault';
     import Login from './Login';
+    import TextDefault from '../Child/TextDefault';
 
     export default {
         name: "Register",
@@ -36,7 +37,8 @@
             BtnDefaultTran,
             BtnPrimaTran,
             BtnDefault,
-            Login
+            Login,
+            TextDefault
         },
         methods: {
             register() {
@@ -55,7 +57,7 @@
 
     .logo {
         width: 100%;
-        height: 20%;
+        height: 15%;
         display: block;
         margin-bottom: 30;
     }

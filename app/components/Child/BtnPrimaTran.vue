@@ -27,7 +27,7 @@
         font-family: "Montserrat-Bold";
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10;
         margin-bottom: 10;
     }

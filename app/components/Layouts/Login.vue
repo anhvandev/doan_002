@@ -1,9 +1,9 @@
 <template>
-    <Page :actionBarHidden="actBar">
+    <Page ref="LoginPage" :actionBarHidden="actBar">
         <FlexboxLayout class="wrapper" flexDirection="column">
-            <Image src="~/assets/images/logo.png" class="logo"/>
-            <TextField class="input-prima" hint="Tên đăng nhập" v-model="username"/>
-            <TextField class="input-prima" hint="Mật khẩu" v-model="password" secure/>
+            <Image src="~/assets/images/logo.png" class="logo" />
+            <TextDefault password="false" v-model="username" placeholder="Tên đăng nhập" />
+            <TextDefault password="true" v-model="password" placeholder="Mật khẩu" />
             <BtnDefault text="Đăng Nhập" @tap="login"/>
             <BtnPrimaTran text="Đăng Ký" @tap="register"/>
         </FlexboxLayout>
@@ -16,6 +16,7 @@
     import BtnPrimaTran from '../Child/BtnPrimaTran';
     import BtnDefault from '../Child/BtnDefault';
     import Register from './Register';
+    import TextDefault from '../Child/TextDefault';
 
     export default {
         name: 'Login',
@@ -34,7 +35,8 @@
             BtnDefaultTran,
             BtnPrimaTran,
             Register,
-            BtnDefault
+            BtnDefault,
+            TextDefault
         },
         methods: {
             login() {
@@ -49,7 +51,15 @@
 
             },
             register() {
-                this.$navigateTo(Register);
+                /*const login = this.$refs.LoginPage.nativeView;
+                login.animate({
+                    opacity: 0,
+                    duration: 400
+                }).then(() => {
+                    this.$navigateTo(Register);
+                }, () => {});*/
+
+
             }
         }
     }
@@ -65,7 +75,7 @@
 
     .logo {
         width: 100%;
-        height: 20%;
+        height: 15%;
         display: block;
         margin-bottom: 30;
     }
