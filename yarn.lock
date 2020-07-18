@@ -3220,9 +3220,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@~4.17.10:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -3564,6 +3564,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-carousel@^6.1.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/nativescript-carousel/-/nativescript-carousel-6.1.1.tgz#a88ab85f616130e4b552b981cc6b14c9ee470b90"
+  integrity sha512-9MZG3t1HWXURMshzuivg+of5EtmQeq38iklkrFAbZwpXT+mzfkFsmw+nmn94CwoYjqtB6X5T6gLnArVFVgB9SA==
+
 nativescript-dev-webpack@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-1.2.0.tgz#ccfbffed438075d4bd7a9088a7a80973b9dfff21"
@@ -3617,6 +3622,18 @@ nativescript-hook@0.2.5:
   dependencies:
     glob "^6.0.1"
     mkdirp "^0.5.1"
+
+nativescript-material-activityindicator@^2.3.23:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-activityindicator/-/nativescript-material-activityindicator-2.5.4.tgz#c43c564537d2302e9cd3103630d02269a8597870"
+  integrity sha512-foNez02t4IZTnYnUkHlDb4iI3FmadSelXeIZFSeM11dCfVynGKSew3HaOR8jknhTq4V4+rkTZf6E8/wMPkBD5A==
+  dependencies:
+    nativescript-material-core "^2.5.4"
+
+nativescript-material-core@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-core/-/nativescript-material-core-2.5.4.tgz#4a2c14a30c3a276ac1ee00cd5f898d7a3c84662c"
+  integrity sha512-40Fz6phTaju0l5cyYbD6UiSh5jJCRq9jKR4Dhx9c8dca9DiZoGyk/byc/bGEM3W7AeDzVxKK7SkgctU/USvxPg==
 
 nativescript-toast@^2.0.0:
   version "2.0.0"
