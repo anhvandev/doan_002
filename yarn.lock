@@ -1153,9 +1153,9 @@ bluebird@^3.1.1, bluebird@^3.5.1, bluebird@^3.5.5:
   integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -2001,9 +2001,9 @@ electron-to-chromium@^1.3.247:
   integrity sha512-NWJ5TztDnjExFISZHFwpoJjMbLUifsNBnx7u2JI0gCw6SbKyQYYWWtBHasO/jPtHym69F4EZuTpRNGN11MT/jg==
 
 elliptic@^6.0.0:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.1.tgz#c380f5f909bf1b9b4428d028cd18d3b0efd6b52b"
-  integrity sha512-xvJINNLbTeWQjrl6X+7eQCrIy/YPv5XCpKW6kB5mKvtnGILoLDcySuwomfdzt0BMdLNVnuRNTuzKNHj0bva1Cg==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -3564,6 +3564,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-carousel@^6.1.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/nativescript-carousel/-/nativescript-carousel-6.1.1.tgz#a88ab85f616130e4b552b981cc6b14c9ee470b90"
+  integrity sha512-9MZG3t1HWXURMshzuivg+of5EtmQeq38iklkrFAbZwpXT+mzfkFsmw+nmn94CwoYjqtB6X5T6gLnArVFVgB9SA==
+
 nativescript-dev-webpack@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-1.2.0.tgz#ccfbffed438075d4bd7a9088a7a80973b9dfff21"
@@ -3617,6 +3622,18 @@ nativescript-hook@0.2.5:
   dependencies:
     glob "^6.0.1"
     mkdirp "^0.5.1"
+
+nativescript-material-activityindicator@^2.3.23:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-activityindicator/-/nativescript-material-activityindicator-2.5.4.tgz#c43c564537d2302e9cd3103630d02269a8597870"
+  integrity sha512-foNez02t4IZTnYnUkHlDb4iI3FmadSelXeIZFSeM11dCfVynGKSew3HaOR8jknhTq4V4+rkTZf6E8/wMPkBD5A==
+  dependencies:
+    nativescript-material-core "^2.5.4"
+
+nativescript-material-core@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-core/-/nativescript-material-core-2.5.4.tgz#4a2c14a30c3a276ac1ee00cd5f898d7a3c84662c"
+  integrity sha512-40Fz6phTaju0l5cyYbD6UiSh5jJCRq9jKR4Dhx9c8dca9DiZoGyk/byc/bGEM3W7AeDzVxKK7SkgctU/USvxPg==
 
 nativescript-toast@^2.0.0:
   version "2.0.0"
