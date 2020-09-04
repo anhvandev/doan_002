@@ -3219,10 +3219,10 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@~4.17.10:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.15, lodash@~4.17.10:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -3564,6 +3564,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-carousel@^6.1.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/nativescript-carousel/-/nativescript-carousel-6.1.1.tgz#a88ab85f616130e4b552b981cc6b14c9ee470b90"
+  integrity sha512-9MZG3t1HWXURMshzuivg+of5EtmQeq38iklkrFAbZwpXT+mzfkFsmw+nmn94CwoYjqtB6X5T6gLnArVFVgB9SA==
+
 nativescript-dev-webpack@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-1.2.0.tgz#ccfbffed438075d4bd7a9088a7a80973b9dfff21"
@@ -3617,6 +3622,18 @@ nativescript-hook@0.2.5:
   dependencies:
     glob "^6.0.1"
     mkdirp "^0.5.1"
+
+nativescript-material-activityindicator@^2.3.23:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-activityindicator/-/nativescript-material-activityindicator-2.5.4.tgz#c43c564537d2302e9cd3103630d02269a8597870"
+  integrity sha512-foNez02t4IZTnYnUkHlDb4iI3FmadSelXeIZFSeM11dCfVynGKSew3HaOR8jknhTq4V4+rkTZf6E8/wMPkBD5A==
+  dependencies:
+    nativescript-material-core "^2.5.4"
+
+nativescript-material-core@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-core/-/nativescript-material-core-2.5.4.tgz#4a2c14a30c3a276ac1ee00cd5f898d7a3c84662c"
+  integrity sha512-40Fz6phTaju0l5cyYbD6UiSh5jJCRq9jKR4Dhx9c8dca9DiZoGyk/byc/bGEM3W7AeDzVxKK7SkgctU/USvxPg==
 
 nativescript-toast@^2.0.0:
   version "2.0.0"
@@ -3745,10 +3762,10 @@ node-releases@^1.1.29:
   dependencies:
     semver "^5.3.0"
 
-node-sass@^4.9.2:
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.12.0.tgz#0914f531932380114a30cc5fa4fa63233a25f017"
-  integrity sha512-A1Iv4oN+Iel6EPv77/HddXErL2a+gZ4uBeZUy+a8O35CFYTXhgA8MgLCWBtwpGZdCvTvQ9d+bQxX/QC36GDPpQ==
+node-sass@^4.13.1:
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.13.1.tgz#9db5689696bb2eec2c32b98bfea4c7a2e992d0a3"
+  integrity sha512-TTWFx+ZhyDx1Biiez2nB0L3YrCZ/8oHagaDalbuBSlqXgUPsdkUSzJsVxeDO9LtPB49+Fh3WQl3slABo6AotNw==
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -3757,7 +3774,7 @@ node-sass@^4.9.2:
     get-stdin "^4.0.1"
     glob "^7.0.3"
     in-publish "^2.0.0"
-    lodash "^4.17.11"
+    lodash "^4.17.15"
     meow "^3.7.0"
     mkdirp "^0.5.1"
     nan "^2.13.2"
