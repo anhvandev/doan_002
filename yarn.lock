@@ -2836,9 +2836,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 interpret@^1.1.0:
   version "1.2.0"
@@ -3564,6 +3564,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-carousel@^6.1.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/nativescript-carousel/-/nativescript-carousel-6.1.1.tgz#a88ab85f616130e4b552b981cc6b14c9ee470b90"
+  integrity sha512-9MZG3t1HWXURMshzuivg+of5EtmQeq38iklkrFAbZwpXT+mzfkFsmw+nmn94CwoYjqtB6X5T6gLnArVFVgB9SA==
+
 nativescript-dev-webpack@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-1.2.0.tgz#ccfbffed438075d4bd7a9088a7a80973b9dfff21"
@@ -3617,6 +3622,18 @@ nativescript-hook@0.2.5:
   dependencies:
     glob "^6.0.1"
     mkdirp "^0.5.1"
+
+nativescript-material-activityindicator@^2.3.23:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-activityindicator/-/nativescript-material-activityindicator-2.5.4.tgz#c43c564537d2302e9cd3103630d02269a8597870"
+  integrity sha512-foNez02t4IZTnYnUkHlDb4iI3FmadSelXeIZFSeM11dCfVynGKSew3HaOR8jknhTq4V4+rkTZf6E8/wMPkBD5A==
+  dependencies:
+    nativescript-material-core "^2.5.4"
+
+nativescript-material-core@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nativescript-material-core/-/nativescript-material-core-2.5.4.tgz#4a2c14a30c3a276ac1ee00cd5f898d7a3c84662c"
+  integrity sha512-40Fz6phTaju0l5cyYbD6UiSh5jJCRq9jKR4Dhx9c8dca9DiZoGyk/byc/bGEM3W7AeDzVxKK7SkgctU/USvxPg==
 
 nativescript-toast@^2.0.0:
   version "2.0.0"
